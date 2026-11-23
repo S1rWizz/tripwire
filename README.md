@@ -1,10 +1,19 @@
 First step to a functioning honeypot server.
 Self hosted tripwire, that can send email alerts when a bait file has been accessed.
 
-not gon use AI. 
 setup requires intermediate knowledge of apache2 server setup, http tunneling thru cloudflare and how to setup env variables. 
 
 clone the repo.
+From the project directory, create and activate the virtual environment, then install the dependencies:
+
+```powershell
+py -3.13 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+```
+
+In VS Code, select `.venv\Scripts\python.exe` as the Python interpreter. (or run '.\.venv\Scripts\Activate.ps1' in the terminal)
+
 initialise the env file, add the following details:  
 SENDER_EMAIL=example@gmail.com  
 APP_PASSWORD= (this needs to be generated on the website)  

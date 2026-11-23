@@ -297,10 +297,10 @@ def main() -> None:
         sys.exit(1)
 
     server_ip = input(
-        f"{SELECT} Server IP {W}[10.22.39.204]{RESET} {G}>>{RESET} "
+        f"{SELECT} Server IP {W}{RESET} {G}>>{RESET} "
     ).strip() or "10.22.39.204"
 
-    port_raw = input(f"{SELECT} Log HTTP port {W}[8080]{RESET} {G}>>{RESET} ").strip()
+    port_raw = input(f"{SELECT} Log HTTP port {W}{RESET} {G}>>{RESET} ").strip()
     port = int(port_raw) if port_raw else 8080
 
     message = input(f"{SELECT} Alert message {G}>>{RESET} ").strip()
