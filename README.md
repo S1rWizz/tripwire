@@ -16,7 +16,7 @@ In VS Code, select `.venv\Scripts\python.exe` as the Python interpreter. (or run
 
 initialise the env file, add the following details:  
 SENDER_EMAIL=example@gmail.com  
-APP_PASSWORD= (this needs to be generated on the website)  
+APP_PASSWORD= (make from google)  
 ALERT_TO_EMAIL=example.com  
 SMTP_HOST=smtp.gmail.com  
 SMTP_PORT=587  
