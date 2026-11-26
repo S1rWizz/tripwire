@@ -12,7 +12,7 @@ py -3.13 -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-In VS Code, select `.venv\Scripts\python.exe` as the Python interpreter. (or run '.\.venv\Scripts\Activate.ps1' in the terminal)
+In VS Code, select `.venv\Scripts\python.exe` as the Python interpreter. (or run '.\venv\Scripts\Activate.ps1' in the terminal)
 
 initialise the env file, add the following details:  
 SENDER_EMAIL=example@gmail.com  
